@@ -1,0 +1,151 @@
+/* You can add styles here */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navigation-links {
+    margin: 0;
+    font-size: x-large;
+    padding-left:;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.image{
+    margin-left: 100px;
+
+}
+
+.welcome{
+    text-align: center;
+}
+  
+.nav-link {
+    float: left;
+}
+
+.nav-link a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.nav-link a:hover {
+    background-color:pink;
+}
+
+.allBosses{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boss-container {
+    
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.boss-link {
+    text-decoration: none;
+    color: black;
+}
+
+.boss-img {
+    height: 200px;
+    float: left;
+}
+
+.boss-img-UD {
+    height: 400px;
+    float: left;
+}
+.boss-heading:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.delete-boss-btn {
+    margin-top: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.delete-boss-btn:hover {
+    cursor: pointer;
+}
+
+.delete-boss-btn:focus {
+    outline: none;
+}
+.boss-container-UD{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-form {
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.create-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.create-btn {
+    width: 100%;
+    background-color: #111;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.create-btn:hover {
+    background-color: #333;
+}
+
+.welcome {
+    margin: 1%;
+}
