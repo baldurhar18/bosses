@@ -5,6 +5,7 @@ const getBosses = () => {
         }
     }).then(data => {
         if(!data) { return [] }
+        //console.log(data)
         return data
     })
 }
@@ -16,6 +17,7 @@ const getBoss = (id) => {
         }
     }).then(data => {
         if(!data) { return {} }
+        //console.log(data)
         return data
     })
 }

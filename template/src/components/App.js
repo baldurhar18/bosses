@@ -18,7 +18,9 @@ class App extends React.Component {
                 <div className="app-container">
                     <Switch>
                         <Route exact path="/" component={ Home }/>
-                        <Route exact path="/bosses" render={() => <Bosses bosses={this.props.bosses}/>}/>
+                        <Route exact path="/bosses" render={() => 
+                        <Bosses bosses={this.props.bosses}/>}
+                        />
                         <Route exact path="/bosses/:bossId" component={ BossDetails }/>
                     </Switch>
                 </div>

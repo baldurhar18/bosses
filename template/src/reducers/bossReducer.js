@@ -14,7 +14,7 @@ const bossReducer = (state=initialState, action) => {
             return {
                 ...state,
                 bosses: addBosses
-            }
+        }
         case 'UPDATE_BOSS':
             const updatedItems = state.bosses.map(boss => {
                 if(boss.id === action.boss.id) {

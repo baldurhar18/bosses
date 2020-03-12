@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const NavLinks = () => {
     return(
+        
         <ul className="navigation-links">
             <li className="nav-link">
                 <NavLink exact to="/">Home</NavLink>
@@ -10,7 +11,9 @@ const NavLinks = () => {
             <li className="nav-link">
                 <NavLink to="/bosses">Bosses</NavLink>
             </li>
+            
         </ul>
+        
     )
 }
 

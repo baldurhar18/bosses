@@ -81,8 +81,10 @@ li {
     float: left;
 }
 .boss-heading:hover {
-    text-decoration: underline;
-    cursor: pointer;
+    opacity: 50%;
+}
+.boss-img:hover {
+    opacity: 50%;
 }
 
 h4 {
